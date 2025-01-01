@@ -2,8 +2,8 @@ const Engagement = [
     {
         "id": 1,
         "title": "Authenticité et savoir-faire",
-        "text": "Chaque création est bien plus qu’un simple assemblage de fleurs : c’est une œuvre unique, pensée et réalisée avec soin, amour et inspiration. Chez Le Bouquet, chaque bouquet est conçu comme une véritable pièce d’art, où chaque fleur est choisie minutieusement pour sa fraîcheur, sa couleur et sa signification.",
-        "image": require("../img/florist-work-woman-making-fashion-modern-bouquet-different-flowers-wooden-table.jpg"),
+        "text": "Chaque création est bien plus qu’un simple assemblage de fleurs : c’est une œuvre unique, pensée et réalisée avec soin, amour et inspiration. Chez Le Bouquet, chaque bouquet est conçu comme une véritable pièce d’art.",
+        "image": require("../img/side-view-woman-holding-bouquet-white-red-color-roses-with-red-color-tulips-pink-color-hydrangea-trachelium-wall-flowers.jpg"),
         "alt": "Fleuriste",
 
 
@@ -12,7 +12,7 @@ const Engagement = [
         "id": 2,
         "title": "Engagement local",
         "text": "Nous privilégions les fleurs issues de producteurs locaux pour garantir fraîcheur, qualité et respect de l’environnement. Ce choix soutient l’artisanat régional tout en réduisant notre empreinte écologique. ",
-        "image": require("../img/woman-s-hand-holding-basket-pf-fresh-flowers.jpg"),
+        "image": require("../img/vertical-delicate-roses-with-dewy-petals.jpg"),
         "alt": "Fleuriste",
     },
     {
