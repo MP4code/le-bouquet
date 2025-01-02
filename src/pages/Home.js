@@ -12,7 +12,7 @@ const Home = () => {
                 <h1 className='title'>Le Bouquet</h1>
             </div>
             <AboutUs />
-            <Demo />
+
             <Article />
         </div>
     )
