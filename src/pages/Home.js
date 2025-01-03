@@ -9,7 +9,7 @@ const Home = () => {
             <div className='banner_container'>
             </div>
             <div className='title_container'>
-                <h1 className='title'>Le Bouquet</h1>
+                <h1 className='title'>LE BOUQUET</h1>
             </div>
             <AboutUs />
 

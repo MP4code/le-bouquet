@@ -5,8 +5,8 @@ const Bouquets = [
         "text": "Idéale pour une déclaration d’amour, cette composition romantique et élégante est un véritable hymne à la passion.",
         "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
         "alt": "bouquets",
-        "price": 109,
-
+        "price": '37,50 €',
+        "selected": "false"
 
     },
     {
@@ -15,7 +15,8 @@ const Bouquets = [
         "text": "Un bouquet de mariée romantique et délicat.",
         "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
         "alt": "bouquets",
-        "price": 150,
+        "price": '45,00 €',
+        "selected": "true"
 
 
     },
@@ -25,8 +26,8 @@ const Bouquets = [
         "text": "avec ses couleurs vives et ses formes généreuses, ce bouquet est un véritable hymne à la joie et à la bonne humeur.",
         "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
         "alt": "bouquets",
-        "price": 104,
-
+        "price": '30,00 €',
+        "selected": "false"
 
     },
     {
@@ -35,10 +36,45 @@ const Bouquets = [
         "text": "élégant et raffiné, ce bouquet de mariée est idéal pour une cérémonie chic et romantique.",
         "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
         "alt": "bouquets",
-        "price": 170,
-
+        "price": '38,50 €',
+        "selected": "true"
 
     },
+    {
+        "ref": 119,
+        "Name": "Marinella",
+        "text": "élégant et raffiné, ce bouquet de mariée est idéal pour une cérémonie chic et romantique.",
+        "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
+        "alt": "bouquets",
+        "price": '31,50 €',
+        "selected": "false"
+
+    },
+    {
+        "ref": 120,
+        "Name": "Cassie",
+        "text": "Bouquet romantique et délicat.",
+        "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
+        "alt": "bouquets",
+        "price": '50,00 €',
+        "badge": "Promo",
+        "promo": '45,00 €',
+        "selected": "true"
+
+    },
+    {
+        "ref": 121,
+        "Name": "Cassie",
+        "text": "Bouquet romantique et délicat.",
+        "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
+        "alt": "bouquets",
+        "price": '45,00 €',
+        "badge": "Promo",
+        "promo": '40,00 €',
+        "selected": "false"
+
+    },
+
 
 
 
