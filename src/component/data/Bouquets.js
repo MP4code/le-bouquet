@@ -12,8 +12,10 @@ const Bouquets = [
     {
         "ref": 116,
         "Name": "Juliette",
-        "text": "Un bouquet de mariée romantique et délicat.",
-        "image": require("../../img/bride-holds-lush-bouquet-with-delicate-flowers-colors.jpg"),
+        "text": "Un bouquet romantique et délicat.",
+        "description": "Romantique et délicat, le bouquet Juliette est une véritable ode à l'amour et à l'élégance. Ses fleurs soigneusement sélectionnées apportent une harmonie parfaite de douceur et de raffinement. Idéal pour célébrer un moment spécial, il convient parfaitement aux mariages, anniversaires ou déclarations d'affection. Avec ses teintes subtiles et son arrangement gracieux, Juliette fera fondre les cœurs et embellira chaque instant.",
+        "image": require("../../img/juliette.jpg"),
+        "imagePlus": require("../../img/juliette_2.jpg"),
         "alt": "bouquets",
         "price": '45,00 €',
         "selected": "true"

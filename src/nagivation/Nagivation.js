@@ -6,6 +6,7 @@ import Contact from "../pages/Contact.js";
 import Header from '../layout/Header.js';
 import Footer from '../layout/Footer.js';
 import Home from '../pages/Home.js';
+import Error404 from '../pages/Error404.js';
 
 const Nagivate = () => {
     return (
@@ -14,7 +15,8 @@ const Nagivate = () => {
             <Routes>
                 <Route exact path='/' element={<Home />} />
                 <Route exact path='/contact' element={<Contact />} />
-                <Route exact path='/p' element={<Product />} />
+                <Route exact path='/bouquet/:ref' element={<Product />} />
+                <Route path='/error-404' element={<Error404 />} />
             </Routes>
             <Footer />
         </BrowserRouter>

@@ -75,3 +75,125 @@
     align-items: center;
     gap: 1em;
 }
+
+/*Product.js*/
+.imgProductBouquetPlus{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                0 1px 3px rgba(0, 0, 0, 0.06);
+    cursor:zoom-in;
+}
+.imgProductBouquetPlus:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+                0 4px 6px rgba(0, 0, 0, 0.12);
+}
+.imgProductBouquet{
+    width: 50%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.product{
+    display: flex;
+    border: 2px solid var(--second-color);
+}
+.product_container{
+    border: 2px solid red;
+    padding: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.product_content{
+    width: 50%;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    gap: 1em;
+}
+
+.product_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.product_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.productText{
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--second-color);
+    text-align: center;
+}
+
+
+.productTitle{
+    text-align: center;
+    color: var(--second-color);
+    font-size: 3em;
+    margin: 0;
+}
+
+.buttonAdd{
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid var(--text);
+  box-sizing: border-box;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  fill: var(--text);
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+.buttonAdd:hover {
+  border-color: var(--main-color);
+  color: var(--second-color);
+  fill: var(--main-color);
+}
+
+.buttonAdd:active {
+  border-color: var(--main-color);
+  color: var(--main-color);
+  fill: var(--main-color);
+}
+
+

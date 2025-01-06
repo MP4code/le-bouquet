@@ -1,32 +1,57 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams, useNavigate } from "react-router-dom";
 import Bouquets from '../component/data/Bouquets';
+import '../design/shop.css';
 
 const Product = () => {
-    const navigate = useNavigate();
     const { ref } = useParams();
+    const navigate = useNavigate();
     const [product, setProduct] = useState(null);
+    const numericRef = parseInt(ref, 10);
+    console.log("Ref convertie :", numericRef);
 
     useEffect(() => {
-        const bouquet = Bouquets.find((flowers) => flowers.ref === ref);
-        setProduct(bouquet);
+        const bouquet = Bouquets.find((bouquet) => bouquet.ref === numericRef);
+        console.log("Produit trouvé :", bouquet);
 
         if (bouquet) {
             setProduct(bouquet);
-            navigate(`/p${ref}`);
+
+
+        } else {
+            console.log("Produit trouvé :", bouquet);
 
         }
-
-
     }, [ref, navigate]);
 
+    if (!product) {
+        return <p>Chargement...</p>; // Affiche un message pendant que le produit se charge
+    }
 
     return (
+        <section className="product">
+            <div className="product_container" >
 
-        <div>Product
+                <div className="product_img">
+                    <img src={product.imagePlus} className="imgProductBouquetPlus" alt={product.alt} />
+                </div>
+                <img src={product.image} className="imgProductBouquet" alt={product.alt} />
+                <div className="product_content">
+                    <div className="product_text">
+                        <h1 className="productTitle">Le Bouquet {product.Name}</h1>
+                        <p className="productText">{product.text}</p>
+                        <p>{product.description}</p>
+                        <p>Prix : {product.price}</p>
+                    </div>
 
-        </div>
-    )
-}
+                    <div className="product_button">
+                        <input className="buttonAdd" type="number" min="1" max="10" defaultValue="1" />
+                        <button className="buttonAdd"> ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
 
-export default Product
+export default Product;
