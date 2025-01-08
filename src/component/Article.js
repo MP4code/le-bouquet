@@ -9,10 +9,11 @@ const Article = () => {
     return (
         <div>
             <div className='background_article'>
-                <h2 className="section_title">LA BOUTIQUE </h2>
+                <h2 className="article_title">LA BOUTIQUE </h2>
+                <p>Découvrez notre collection unique, pensée pour sublimer chaque instant avec élégance et passion.</p>
             </div>
             <div className="article_Favorite">
-                <h2>Notre selection</h2>
+                <h3>Notre selection</h3>
                 <div className="article_Favorite_container">
                     {Bouquets.filter((bouquetFav) => bouquetFav.selected === 'true').map((bouquetFav) => (
                         <Link to={`/bouquet/${bouquetFav.ref}`} className='article_link' key={bouquetFav.ref}>
@@ -20,7 +21,7 @@ const Article = () => {
                                 <div className='article_content'>
                                     <img className='article_image' src={bouquetFav.image} alt={bouquetFav.alt} />
                                     <div className='article_text'>
-                                        <h3>{bouquetFav.Name}</h3>
+                                        <h4>{bouquetFav.Name}</h4>
                                         <p>{bouquetFav.price}</p>
                                     </div>
                                 </div>
@@ -37,7 +38,7 @@ const Article = () => {
                             <div className='article_content'>
                                 <img className='article_image' src={bouquet.image} alt={bouquet.alt} />
                                 <div className='article_text'>
-                                    <h3>{bouquet.Name}</h3>
+                                    <h4>{bouquet.Name}</h4>
 
                                     <p>{bouquet.price}</p>
                                 </div>

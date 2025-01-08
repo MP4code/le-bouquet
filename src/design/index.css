@@ -1,5 +1,40 @@
 body {
   margin: 0 auto;
+  padding: 0 5%;
+  background-color: var(--main-color);
 
 }
+main{
+  background-color: var(--background-color);
+}
+:root{
+     --main-color: #daccc1;
+     --second-color: #aaa48b;
+     --background-color:#ede9e3;
+     --text : #333;
+     --text2 : #806554;
+}
+p{
+    color: var(--text);
+    font-size: 1rem;
+}
 
+h1 {
+    font-size: 2.5rem; /* Taille intermédiaire entre 32px et 48px */
+}
+
+h2 {
+    font-size: 2rem; /* Correspond à 32px */
+}
+
+h3 {
+    font-size: 1.5rem; /* Correspond à 24px */
+}
+
+h4 {
+    font-size: 1.25rem; /* Correspond à 20px */
+}
+
+h5, h6 {
+    font-size: 1rem; /* Correspond à 16px */
+}

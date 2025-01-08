@@ -46,7 +46,7 @@ const Product = () => {
 
                     <div className="product_button">
                         <input className="buttonAdd" type="number" min="1" max="10" defaultValue="1" />
-                        <button className="buttonAdd"> ajouter au panier</button>
+                        <button className="buttonAdd"> Ajouter au panier</button>
                     </div>
                 </div>
             </div>
