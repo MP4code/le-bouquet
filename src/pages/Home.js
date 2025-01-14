@@ -6,16 +6,18 @@ import Demo from '../component/Demo';
 import Banner from '../component/Banner';
 const Home = () => {
     return (
-        <main>
+        <div class="main-container">
+            <main>
 
-            <div className='title_container'>
-                <h1 className='title'>LE BOUQUET</h1>
-            </div>
+                <div className='title_container'>
+                    <h1 className='title'>LE BOUQUET</h1>
+                </div>
 
-            <Banner />
-            <AboutUs />
-            <Article />
-        </main>
+                <Banner />
+                <AboutUs />
+                <Article />
+            </main>
+        </div>
     )
 }
 

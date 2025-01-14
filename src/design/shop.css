@@ -43,24 +43,24 @@
 }
 
 .article_text{
-
+    font-weight: bold;
+    font-size: 21px;
     display: flex;
     gap: 1em;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
+    padding: 1rem;
+
 }
 
 .article_text h4{
     margin: 0;
 }
-.article_text{
-    font-weight: bold;
-    font-size: 21px;
-}
 
 /**/
 .article_Favorite h3{
+    font-size: 40px;
+    margin-bottom: 2em ;
    color: var(--text2);
 }
 .article_Favorite{
@@ -69,8 +69,8 @@
     justify-content: center;
     align-items: center;
     padding:2%;
-    color: var(--text-color);
-    border-radius: 10px;
+    background: linear-gradient(to right, var(--main-color), var(--background-color), var(--main-color)); 
+   
 }
 
 .article_Favorite_container{
@@ -204,3 +204,74 @@
 }
 
 
+/*** Page cadeaux ***/
+.cadeaux{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+
+.cadeauxContainer{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2% 15%;
+   
+    
+}
+.cadeauxContainer2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px ;
+    border: 2px solid green;
+    padding: 0 20%;
+    
+}
+.cadeauxContentText{
+   display: flex;
+   flex-direction: column;
+   text-align:left;
+   gap: 1em;
+   padding:5%;
+ 
+}
+.cadeauxContentText p:nth-child(3){
+    font-size: 18px;
+}
+.cadeauxContentText h2{
+    text-align:start;
+    color: var(--text2);
+}
+
+.cadeaux_image{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 150px 50px  150px 0;
+
+}
+.cadeaux_image2{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 150px;
+    cursor: zoom-in;
+}
+
+.cadeaux_image2:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+
+}
+
+
+/**/

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../design/shop.css';
 import Bouquets from './data/Bouquets';
-
+import { FaShoppingBasket } from "react-icons/fa";
 
 const Article = () => {
 
@@ -39,7 +39,6 @@ const Article = () => {
                                 <img className='article_image' src={bouquet.image} alt={bouquet.alt} />
                                 <div className='article_text'>
                                     <h4>{bouquet.Name}</h4>
-
                                     <p>{bouquet.price}</p>
                                 </div>
                             </div>

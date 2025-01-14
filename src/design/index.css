@@ -1,10 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0;
   background-color: var(--main-color);
 
 }
 main{
+    margin: 0 auto;
+}
+.main-container{
+    margin: 0 5%;
+    padding-top: 5%;
   background-color: var(--background-color);
 }
 :root{
@@ -16,7 +27,7 @@ main{
 }
 p{
     color: var(--text);
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 h1 {
@@ -37,4 +48,8 @@ h4 {
 
 h5, h6 {
     font-size: 1rem; /* Correspond à 16px */
+}
+/**/
+.price{
+    font-size: 21px;
 }

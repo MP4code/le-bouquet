@@ -1,7 +1,9 @@
 import React from 'react';
 import "../design/App.css";
 import Engagement from './Engagement';
-import ImgAboutUs from "../img/florist-work-woman-making-fashion-modern-bouquet-different-flowers-wooden-table.jpg"
+import ImgAboutUs from "../img/florist-work-woman-making-fashion-modern-bouquet-different-flowers-wooden-table.jpg";
+import { RiLeafFill } from "react-icons/ri";
+
 const AboutUs = () => {
     return (
         <div className="aboutUs_container">
@@ -35,6 +37,7 @@ const AboutUs = () => {
                                 <div className='serviceCard_content'>
                                     <div className='serviceCard_text'>
                                         <h3>{service.title}</h3>
+                                        <RiLeafFill />
                                         <p>{service.text}</p>
                                     </div>
                                 </div>

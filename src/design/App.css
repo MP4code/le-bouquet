@@ -1,3 +1,50 @@
+
+/*header Barre de navigation*/
+/* Header Styling */
+.header {
+  width: 100%;
+  background-color: var(--background-color);
+  padding: 10px 0;
+  position: fixed; /* La rend fixe en haut de la page */
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-item a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text2);
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.navbar-item a:hover {
+  color: var(--text-color);
+}
+
+
+/**/
 /*Bannière*/
 .banner{
  background-image: url('../img/banner2.jpg');
@@ -66,7 +113,7 @@
     text-align: justify;
     font-size: 18px;
     color: var(--text2);
-    
+    margin-top: 1em;
 }
 
 
@@ -137,7 +184,7 @@
 
 .serviceCard_content{
     width: 300px;
-   height: 250px;
+    height: 300px;
     background-color: var(--main-color);
 }
 .serviceCard_text{
@@ -147,7 +194,7 @@
     align-items: center;
     text-align: center;
     padding: 1.5em;
-    
+    gap: 1em;
     
 }
 
@@ -157,7 +204,8 @@
     
 }
 .serviceCard_text p{
-    margin: 0;
+
+   margin: 0;
 }
 /* carousel */
 .demo{
