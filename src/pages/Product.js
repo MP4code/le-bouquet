@@ -10,6 +10,7 @@ const Product = () => {
     const numericRef = parseInt(ref, 10);
     console.log("Ref convertie :", numericRef);
 
+
     useEffect(() => {
         const bouquet = Bouquets.find((bouquet) => bouquet.ref === numericRef);
         console.log("Produit trouvé :", bouquet);
@@ -29,28 +30,30 @@ const Product = () => {
     }
 
     return (
-        <section className="product">
-            <div className="product_container" >
+        <div className="main-container">
+            <section className="product">
+                <div className="product_container" >
 
-                <div className="product_img">
-                    <img src={product.imagePlus} className="imgProductBouquetPlus" alt={product.alt} />
-                </div>
-                <img src={product.image} className="imgProductBouquet" alt={product.alt} />
-                <div className="product_content">
-                    <div className="product_text">
-                        <h1 className="productTitle">Le Bouquet {product.Name}</h1>
-                        <p className="productText">{product.text}</p>
-                        <p>{product.description}</p>
-                        <p>Prix : {product.price}</p>
+                    <div className="product_img">
+                        <img src={product.imagePlus} className="imgProductBouquetPlus" alt={product.alt} />
                     </div>
+                    <img src={product.image} className="imgProductBouquet" alt={product.alt} />
+                    <div className="product_content">
+                        <div className="product_text">
+                            <h1 className="productTitle">Le Bouquet {product.Name}</h1>
+                            <p className="productText">{product.text}</p>
+                            <p>{product.description}</p>
+                            <p>Prix : {product.price}</p>
+                        </div>
 
-                    <div className="product_button">
-                        <input className="buttonAdd" type="number" min="1" max="10" defaultValue="1" />
-                        <button className="buttonAdd"> Ajouter au panier</button>
+                        <div className="product_button">
+                            <input className="buttonAdd" type="number" min="1" max="10" defaultValue="1" />
+                            <button className="buttonAdd"> Ajouter au panier</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 };
 

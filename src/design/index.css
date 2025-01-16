@@ -2,8 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poiret One", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
+/*
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  */
 body {
   margin: 0 auto;
   padding: 0;
@@ -18,6 +29,14 @@ main{
     padding-top: 5%;
   background-color: var(--background-color);
 }
+
+.main-title{
+    text-align: center;
+     font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 :root{
      --main-color: #daccc1;
      --second-color: #aaa48b;
@@ -28,6 +47,9 @@ main{
 p{
     color: var(--text);
     font-size: 16px;
+}
+a{
+    text-decoration: none;
 }
 
 h1 {

@@ -1,21 +1,26 @@
 
 /*header Barre de navigation*/
 /* Header Styling */
+.logo{
+    width: 80px;
+}
 .header {
   width: 100%;
   background-color: var(--background-color);
-  padding: 10px 0;
+  padding: 0 5%;
   position: fixed; /* La rend fixe en haut de la page */
   top: 0;
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 10%;
 }
 
 .navbar-list {
@@ -33,7 +38,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    text-decoration: none;
     color: var(--text2);
     font-size: 20px;
     transition: color 0.3s;
@@ -44,6 +48,90 @@
 }
 
 
+/**/
+/***Footer***/
+.footer{
+    width: 100%;
+    
+}
+.footerContainer{
+    background: linear-gradient(to right, var(--background-color), var(--main-color), var(--background-color)); 
+    margin: 0 5%;
+    display: flex;
+}
+
+
+.footerContent_img{
+    background-image: url( "../img/beautiful-wedding-bouquet-flowers.jpg");
+    background-size: cover; 
+    background-position: center;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerContent_reseaux{
+    padding: 2% 5%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.footerContent_reseauCard{
+    background-color: var(--main-color);
+    width: 50px;
+    border-radius: 30px;
+    color: var(--text2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.footerContent{
+    width: 60%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 5%;
+    
+}
+
+.footerContent a:hover{
+    color: var(--text2);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.footerContent_mentions{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footerContent_contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footerContent_mentions a{
+    font-size: 1.2em;
+    color: var(--text);
+   
+}
+.footerContent_contact p{
+    font-size: 1.2em;
+}
+.footerContent_contact a{
+    font-size: 1.2em;
+    color: var(--text);
+}
+
+.footer-bottom p{
+  color: var(--text2);
+}
 /**/
 /*Bannière*/
 .banner{
@@ -62,6 +150,10 @@
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
+     font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 
@@ -79,7 +171,10 @@
 
 
 .aboutUs_title{
-    
+    font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
     color: var(--text2);
 }
 .aboutUs_image{
@@ -247,5 +342,86 @@
     object-fit: cover;
 }
 
+
+/**/
+
+/***Nous Contacter***/
+.informationsContact{
+    font-size: 20px;
+    text-align: center;
+    color: var(--text2);
+}
+.contactContent_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 5%;
+}
+.coordonneesCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding: 1em;
+    border-radius: 20px;
+    background: linear-gradient(to top, var(--main-color), var(--background-color)); 
+
+}
+
+.coordonnees{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconCard{
+    width: 50px;
+    height: 5%;
+}
+
+
+/**Formulaire**/
+.formDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    gap: 1em ;
+}
+.test{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+#formCaseMsg{
+    border: 2px solid olive;
+}
+.formCase{
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+.formCase input{
+     width: 100%;
+     height: 30px;
+     background-color: transparent;
+     border: 1px solid transparent;
+                               
+}
+.contactContent_form{
+    padding: 0 10% 5% 10%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.contactContent_form img{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 200px 200px 0 0;
+    
+}
 
 /**/

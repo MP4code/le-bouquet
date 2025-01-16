@@ -5,10 +5,11 @@ import { FaGift } from "react-icons/fa";
 import { LuMessageCircleHeart } from "react-icons/lu";
 import { TbTruckDelivery } from "react-icons/tb";
 import { FaShoppingBasket } from "react-icons/fa";
-
+import Logo from "../img/logo.png"
 export default function Header() {
     return (
         <header className="header">
+            <img className='logo' src={Logo} alt="Logo" />
             <nav className="navbar">
                 <ul className="navbar-list">
                     <li className="navbar-item"><a href="/">

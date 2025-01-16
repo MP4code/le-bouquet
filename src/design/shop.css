@@ -23,7 +23,11 @@
 
 }
 .article_link:hover{
-   background-color: var(--second-color);
+    background: linear-gradient(
+    to bottom right, 
+    var(--text2),        
+    var(--main-color)
+  );
     transition: 0.3s;
      transform: scale(1.02); 
  
@@ -32,7 +36,6 @@
     display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
   gap: 20px; /* Espace entre les colonnes et les lignes */
-  margin: 20px;
   padding: 5% 15%;
   justify-content: space-between;
 }
@@ -60,7 +63,7 @@
 /**/
 .article_Favorite h3{
     font-size: 40px;
-    margin-bottom: 2em ;
+    margin-bottom: 1em ;
    color: var(--text2);
 }
 .article_Favorite{
@@ -182,7 +185,6 @@
   outline: 0;
   padding: 0 17px;
   text-align: center;
-  text-decoration: none;
   transition: all .3s;
   user-select: none;
   -webkit-user-select: none;

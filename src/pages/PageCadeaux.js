@@ -5,7 +5,7 @@ import Bouquets from "../component/data/Bouquets"
 const PageCadeaux = () => {
     return (
         <div className='main-container'>
-            <h1 className='title'>Nos idées cadeaux</h1>
+            <h1 className='main-title'>Nos idées cadeaux</h1>
 
 
             <section className='cadeaux'>
