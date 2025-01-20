@@ -133,6 +133,7 @@
   color: var(--text2);
 }
 /**/
+
 /*Bannière*/
 .banner{
  background-image: url('../img/banner2.jpg');
@@ -237,7 +238,8 @@
     margin: 0;
 }
 
-/*Nos engagments*/
+/***Nos engagments***/
+
 .engagementTitle{
     font-size: 2em;
     color: var(--text2);
@@ -302,6 +304,8 @@
 
    margin: 0;
 }
+
+/**/
 /* carousel */
 .demo{
     padding: 5% 15%;
@@ -380,7 +384,8 @@
 }
 
 
-/**Formulaire**/
+/***Formulaire de contact***/
+
 .formDesign{
     display: flex;
     flex-direction: column;
@@ -421,7 +426,54 @@
     width: 400px;
     object-fit: cover;
     border-radius: 200px 200px 0 0;
-    
+
 }
 
+
+.formCase textarea{
+    margin-top: 1em;
+}
+/**/
+/***Delivery***/
+
+.titleDelivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.delivery{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 1.5em;
+ padding: 2%;
+}
+.formDelivery{
+
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ 
+ 
+}
+
+.formDelivery label{
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ padding: 1em;
+}
+.formDelivery input{
+ border: 2px solid var(--second-color);
+ width: 100%;
+ padding: 5%;
+ margin: 1em;
+}
 /**/

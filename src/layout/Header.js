@@ -18,7 +18,7 @@ export default function Header() {
                         Cadeaux <FaGift /></a></li>
                     <li className="navbar-item"><a href="/contact">
                         Contact <LuMessageCircleHeart /></a></li>
-                    <li className="navbar-item"><a href="/">
+                    <li className="navbar-item"><a href="/livraison">
                         Livraison <TbTruckDelivery /></a></li>
                     <li className="navbar-item"><a href="/">
                         Panier <FaShoppingBasket /></a></li>
