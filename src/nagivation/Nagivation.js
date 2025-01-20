@@ -12,7 +12,7 @@ import Delivery from '../pages/Delivery.js';
 
 const Nagivate = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Header />
             <Routes>
                 <Route exact path='/' element={<Home />} />
@@ -23,7 +23,7 @@ const Nagivate = () => {
                 <Route path='/error-404' element={<Error404 />} />
             </Routes>
             <Footer />
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
