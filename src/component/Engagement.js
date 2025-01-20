@@ -3,7 +3,7 @@ const Engagement = [
         "id": 1,
         "title": "Savoir-faire",
         "text": "Chaque création est bien plus qu’un simple assemblage de fleurs : c’est une œuvre unique, pensée et réalisée avec soin, amour et inspiration. Chez Le Bouquet, chaque bouquet est conçu comme une véritable pièce d’art.",
-        "image": require("../img/side-view-woman-holding-bouquet-white-red-color-roses-with-red-color-tulips-pink-color-hydrangea-trachelium-wall-flowers.jpg"),
+        "image": require("../img/side-view-woman-wall-flowers.jpg"),
         "alt": "Fleuriste",
 
 
