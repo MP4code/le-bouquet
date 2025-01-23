@@ -6,7 +6,7 @@
   
   "private": true,
   
-  "homepage": "https://MP4code.github.io/le-bouquet/",
+  "homepage": "https://MP4code.github.io/le-bouquet",
   
   "dependencies": {
   
@@ -47,7 +47,7 @@
   "react-router-dom": "^7.1.1",
   
     
-  "react-scripts": "5.0.1",
+  "react-scripts": "^3.0.1",
   
     
   "react-slick": "^0.30.3",
@@ -59,9 +59,13 @@
   
   "scripts": {
   
+    
   "predeploy": "npm run build",
+  
+    
   "deploy": "gh-pages -d build",
-
+  
+    
   "start": "react-scripts start",
   
     
@@ -72,9 +76,6 @@
   
     
   "eject": "react-scripts eject"
-  
-    
- 
   
   },
   
