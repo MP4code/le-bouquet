@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Product from "../pages/Product.js";
 import Contact from "../pages/Contact.js";
@@ -12,7 +12,7 @@ import Delivery from '../pages/Delivery.js';
 
 const Nagivate = () => {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <Header />
             <Routes>
                 <Route exact path='/' element={<Home />} />
@@ -23,7 +23,7 @@ const Nagivate = () => {
                 <Route path='/error-404' element={<Error404 />} />
             </Routes>
             <Footer />
-        </HashRouter>
+        </BrowserRouter>
     )
 }
 
